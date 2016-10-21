@@ -1,0 +1,14 @@
+{
+  "name": "node-red-contrib-tfs",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "dependencies": {
+  },
+	"keywords": [ "node-red" ],
+	"node-red": {
+		"nodes": {
+			"tfs build": "tfs build.js"
+		}
+	}
+}
