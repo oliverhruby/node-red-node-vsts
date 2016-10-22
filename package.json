@@ -9,8 +9,7 @@
 	"node-red": {
 		"nodes": {
 			"vsts-build-status": "vsts-build-status.js",
-      "vsts-trigger-build": "vsts-trigger-build.js",
-
+			"vsts-trigger-build": "vsts-trigger-build.js"
 		}
 	}
 }
