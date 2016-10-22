@@ -1,0 +1,22 @@
+<script type="text/javascript">
+    RED.nodes.registerType('vsts-build-status',{
+        category: 'advanced',
+        color: '#223355',
+        inputs:1,
+        outputs:1,
+        label: function() {
+            return this.name||"build status";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="vsts-build-status">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="vsts-build-status">
+    <p>Description</p>
+</script>

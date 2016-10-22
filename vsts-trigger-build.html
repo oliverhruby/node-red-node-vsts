@@ -1,0 +1,23 @@
+<script type="text/javascript">
+    RED.nodes.registerType('vsts-trigger-build',{
+        category: 'advanced',
+        color: '#223355',
+        icon: 'vsts-trigger-build.png',
+        inputs:1,
+        outputs:1,
+        label: function() {
+            return this.name||"trigger build";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="vsts-trigger-build">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="vsts-trigger-status">
+    <p>Description</p>
+</script>
