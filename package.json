@@ -8,7 +8,9 @@
 	"keywords": [ "node-red" ],
 	"node-red": {
 		"nodes": {
-			"tfs build": "tfs build.js"
+			"vsts-build-status": "vsts-build-status.js",
+      "vsts-trigger-build": "vsts-trigger-build.js",
+
 		}
 	}
 }
